@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "student_grades",
+  "info": {
+    "singularName": "student-grade",
+    "pluralName": "student-grades",
+    "displayName": "student_grade"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "class_id": {
+      "type": "string"
+    },
+    "student_no": {
+      "type": "string"
+    },
+    "prelim_grade": {
+      "type": "float"
+    },
+    "miderm_grade": {
+      "type": "float"
+    },
+    "Final_grade": {
+      "type": "float"
+    },
+    "Total_grade": {
+      "type": "float"
+    },
+    "Remarks": {
+      "type": "string"
+    }
+  }
+}
